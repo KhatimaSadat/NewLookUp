@@ -1,0 +1,126 @@
+/* features */
+.content-of-feature{
+    background-color: rgb(46, 90, 90);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding:40px;
+    height: 450px;
+    border-bottom: 2px solid white;
+    position: relative;
+    top: 47px;
+    right: 0px;
+    width: 1167px;
+  
+  }
+  .content-of-feature .left-side ,.content-of-feature .right-side{
+    margin: 8px;
+    color: white;
+    
+  }
+  .content-of-feature .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: left;
+    
+    
+  }
+  .content-of-feature .left-side .section {
+    margin: 15px 0px;
+    margin-right: 8px;
+    line-height:20px;
+    width: 280px;
+  }
+  .content-of-feature .left-side .section h2{
+    font-size: 1.9em;
+    width: 350px;
+  }
+  .content-of-feature .left-side .section .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: start ;
+  
+  }
+  .content-of-feature .left-side .section .icon .git{
+    margin-left: 20px;
+  }
+  
+  .content-of-feature .left-side p ,.content-of-feature .left-side a,.content-of-feature .left-side h2{
+    text-align: left;
+  }
+  .content-of-feature .left-side a{
+    text-decoration: none;
+    color:  rgb(61, 207, 255);
+  }
+  
+  .content-of-feature .right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    row-gap: 60px;
+    column-gap: 30px;
+  }
+  .content-of-feature .right-side .section{
+    border: 5px solid white;
+    width: 300px;
+    height: 150px;
+    position: relative;
+  }
+  .content-of-feature .right-side .section .empty{
+    width: 70px;
+    height: 60px;
+    background-color:rgb(46, 90, 90);
+    border: none;
+    position: absolute;
+    left: 10%;
+    top: -36px;
+    border: none;
+  
+  
+  
+  }
+  .content-of-feature .right-side .section .empty .icon{
+    margin-top: -3px;
+    
+  }
+  .content-of-feature .right-side .section .text{
+    margin: 10%;
+  }
+  .content-of-feature .right-side .section .text p ,.content-of-feature .right-side .section .text h3{
+   text-align: left;
+   
+  }
+  .content-of-feature .right-side .section .text .more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgb(61, 207, 255);
+    
+  }
+  @media (max-width : 1060px){
+    
+    .content-of-feature .right-side{
+      grid-template-columns: 1fr 1fr;
+    }
+    .content-of-feature .left-side .section h2{
+      width: 270px;
+      line-height: 30px;
+    }
+  }
+  
+  @media (max-width: 900px){
+    .content-of-feature{
+      height: 800px;
+      padding: 50px;
+    }
+    .content-of-feature .right-side{
+      grid-template-columns: 1fr ;
+    }
+   
+    .content-of-feature .left-side .section h2{
+      width: 300px;
+    }
+  }
