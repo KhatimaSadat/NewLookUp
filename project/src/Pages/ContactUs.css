@@ -1,2 +1,122 @@
 /*contact design*/
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(9, 9, 41);
+}
+
+
+.contact h2{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.section-one{
+  margin:0px 12px 0px 120px;
+  width: 400px;
+}
+.contact-use{
+  margin:0px 0px 0px 0px;
+}
+
+.Get-touch{
+  margin-top: 14px;
+  margin-bottom: 35px;
+}
+
+.follow{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.address{
+  margin-top: 40px;
+}
+
+ .social{
+  margin-right: 15px;
+  margin-top: 30px;
+  color:black;
+  
+ }
+
+ .address-1{
+   margin: 4px;
+   font-size: 13px;
+   font-weight: bold;
+   text-decoration: none;
+   color: rgb(9, 9, 41);
+ }
+
+ .contact p{
+  font-size: 13px;
+ }
+
+.section-two{
+ width: 400px;
+
+}
+
+.send-message{
+  margin-bottom: 35px;
+  margin-top:31px;
+}
+
+.first-last-name{
+  width: 126px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 2px;
+  border-bottom-style: bold;
+  border-color:  rgb(9, 9, 41);
+  margin-right: 25px;
+  margin-bottom: 35px;
+  outline: none;
+}
+
+.info{
+  width: 281px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 2px;
+  border-bottom-style: bold;
+  border-color:  rgb(9, 9, 41);
+  margin-bottom: 35px;
+  outline: none;
+}
+
+.send-button{
+  margin-right: 20px;
+  padding: 6px 15px 6px 15px;
+  border: none;
+  background-color:rgb(9, 9, 41);;
+  color: white;
+  border-style: 13px ;
+  font-weight: bold;
+  font-size: 10px;
+ cursor: pointer;
+ margin-bottom: 35px;
+ }
+
+ .contact h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.start-button{
+  margin-right: 20px;
+  padding: 1px 30px 1px 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 41);
+  border-color:rgb(9, 9, 41);
+  border-width:2px;
+  border-style: 13px ;
+ font-weight: bold;
+ font-size: 20px;
+ cursor: pointer;
+}
+
 
