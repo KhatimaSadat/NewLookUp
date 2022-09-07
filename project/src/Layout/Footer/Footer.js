@@ -1,4 +1,5 @@
-
+import './Footer.css';
+import logo from '../../Asset/Logo/Group 74.png';
 const Footer = () => {
     return ( 
         <div className="footer" >
