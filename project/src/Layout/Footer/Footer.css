@@ -1,1 +1,49 @@
 /* footer */
+.footer{
+  background-color: rgb(28, 28, 86);
+  color: white;
+  padding: 80px;
+  padding-top: 40px;
+
+  
+}
+.footer .top{
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+ 
+
+}
+.footer .top p{
+  width: 300px;
+  text-align: left;
+}
+.footer .buttom{
+  display: flex;
+  flex-direction: row ;
+  justify-content: start;
+  align-items: flex-start;
+
+}
+.footer .buttom .section{
+  margin: 50px;
+  
+  text-align: left;
+}
+.footer .buttom #sec-1{
+  margin-left: 0px;
+}
+.footer .buttom .section p, .footer .buttom .section h2{
+  text-align: left;
+}
+.footer .top h1{
+  margin-left: 40px;
+}
+.footer .buttom .section .bottom{
+  color: white;
+  border: 2px solid white;
+  padding: 4px;
+  width: 60px;
+}
