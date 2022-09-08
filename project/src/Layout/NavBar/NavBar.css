@@ -1,75 +1,66 @@
 /* NavBar design*/
+/* NavBar design*/
 .navbar{
-    position: fixed;
-    left: 8px;
-    top: 0;
-    right:8px;
-    z-index: 100;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    
-    border: 1px solid rgb(46, 90, 90);
-    background-color:rgb(46, 90, 90);
-  }
-  .navbar .right-side{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    padding-right: 80px;
-    padding-left: 200px;
-    height: 50px; 
-    background:linear-gradient(135deg, transparent 45px, rgb(235, 235, 210) 0) top left;
-   
-  }
-  .navbar .right-side  a{
-    display: flex;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 5px;
-    color:rgb(6, 49, 49);
-    flex-shrink: 0;
-  }
-  .navbar .right-side  a .span-home-nav{
-    font-size: 12px;
-    text-decoration: underline;
-    color: rgb(61, 207, 255);
-  }
-  .navbar .left-side{
-    display: grid;
-    grid-template-columns: 30px 1fr;
-    background-color:rgb(46, 90, 90);
-    height: 50px;
-    width: 500px;
-    flex-shrink: 0;
-  }
-  .navbar .left-side .humburgerIcon{
-  margin-left: 27px ;
-  }
-  .navbar .left-side .logo{
-  width: 170px;
-  margin-left: 120px;
-  margin-top: 5px;
-  height: 40px;
-  }
-  .navbar .right-side a:hover{
-    cursor: pointer;
-    border: 1px solid rgb(6, 49, 49);
-    padding: 3px;
-  }
-  .navbar .sidebare{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 10px;
-    background-color: white;
-    width: 2px;
-    height: 30px;
-    z-index: 200;
-    margin-left: 110px;
-  }
+  position: fixed;
+  left: 0px;
+  top: 0;
+  right:0;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: 1px solid rgb(46, 90, 90);
+  background-color: rgb(46, 90, 90);
+}
+.navbar .right-side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding-right: 100px;
+  padding-left: 200px;
+  height: 50px; 
+  background:linear-gradient(135deg, transparent 45px, rgb(235, 235, 210) 0) top left;
+  flex-shrink: 0;
+}
+.navbar .right-side  a{
+  display: flex;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color:rgb(6, 49, 49);
+  flex-shrink: 0;
+}
+.navbar .left-side{
+  width: 480px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  flex-shrink: 0; 
+}
+.Humburger{
+  margin-left: 30px;
+}
+.logo{
+width: 180px;
+margin-left: 20px;
+height: 40px;
+}
+.navbar a:hover{
+  cursor: pointer;
+  /* border: 1px solid  rgb(6, 49, 49); */
+  padding: 6px;
+  text-decoration: underline;
+  color: rgb(7, 157, 216);
+}
+hr.vertical{
+  border: 0;
+  border-left: 2px solid white;
+  height: 35px;
+  float: left;
+  margin-left: 30px;
+}
