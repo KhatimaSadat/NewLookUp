@@ -1,1 +1,146 @@
 /* home page's design */
+.container{
+  position: relative;
+  display: inline-block;
+}
+.container::before,
+.container::after{
+  content: " ";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+.container::before{
+position: absolute;
+border-bottom: 115px solid rgb(46, 90, 90);
+border-left: 140px solid transparent;
+bottom: 5px;
+right:1px;
+}
+.home-photo{
+  width: 1360px;
+  height: 600px;
+  margin-left: -9px;
+  } 
+.content{
+  position: absolute;
+  top: 51px;
+}
+.h1{
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 100px;
+  font-weight: 900;
+  color: rgb(6, 49, 49);
+  font-family: arial;
+  padding-top: 90px;
+}
+.paragraph{
+  text-align: left;
+  color: black;
+  margin-left: 105px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  color: rgb(6, 49, 49);
+}  
+.buttons{
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.get-btn,
+.start-btn{
+  border: 3px solid rgb(6, 49, 49);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+  background:none;
+  font-family: arial;
+  cursor: pointer;
+  color: rgb(6, 49, 49);
+}
+.start-btn{
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+.get-btn:hover,
+.start-btn:hover{
+  border-style:double;
+}.container{
+  position: relative;
+  display: inline-block;
+}
+.container::before,
+.container::after{
+  content: " ";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+.container::before{
+position: absolute;
+border-bottom: 115px solid rgb(46, 90, 90);
+border-left: 140px solid transparent;
+bottom: 5px;
+right:1px;
+}
+.home-photo{
+  width: 1360px;
+  height: 600px;
+  margin-left: -9px;
+  } 
+.content{
+  position: absolute;
+  top: 51px;
+}
+.h1{
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 100px;
+  font-weight: 900;
+  color: rgb(6, 49, 49);
+  font-family: arial;
+  padding-top: 90px;
+}
+.paragraph{
+  text-align: left;
+  color: black;
+  margin-left: 105px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  color: rgb(6, 49, 49);
+}  
+.buttons{
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.get-btn,
+.start-btn{
+  border: 3px solid rgb(6, 49, 49);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+  background:none;
+  font-family: arial;
+  cursor: pointer;
+  color: rgb(6, 49, 49);
+}
+.start-btn{
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+.get-btn:hover,
+.start-btn:hover{
+  border-style:double;
+}
