@@ -1,4 +1,4 @@
-import image from './background.jpg';
+import image from '../Asset/Photos/CostomerReview/background.jpg';
 import './Home.css';
 const Home = () => {
     return (  
