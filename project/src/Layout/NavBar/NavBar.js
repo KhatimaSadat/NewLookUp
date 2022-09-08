@@ -5,20 +5,21 @@ import './NavBar.css';
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const NavBar = () => {
   return (  
-         <nav className='navbar'>
+          <nav className='navbar'>
           <nav className="left-side">
-            <div className="humburgerIcon"> <Humburger  rounded color='white' size={30} /></div>
-            <img src={logo} className="logo" alt=" " />
-           </nav> 
+          <div className='Humburger'> <Humburger rounded color='white' size={30} /> </div>
+          <div  > <hr  className="vertical"/></div> 
+           <div className='logo'>  <img src={logo} className="logo" alt=" " /> </div> 
+            
+          </nav> 
           <nav className='right-side'>
-             <Link to="/home" ><span className="span-home-nav" > HOME</span> </Link>
+             <Link to="/"> HOME </Link>
              <Link to="/AboutUs">ABOUT US</Link>
              <Link to="/featurs">FEATURES</Link>
              <Link to="/contact">CONTACT</Link>
-             <Link to="/">LOG IN</Link>
+             <Link to="/login">LOG IN</Link>
           </nav>
-          <div className="sidebare"></div>
-        </nav>
+          </nav>
     );
 }
 export default NavBar;
