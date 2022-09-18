@@ -1,0 +1,78 @@
+/* log in page */
+.login-container{
+    background-color: rgb(46, 90, 90);
+    height: 78vh;
+    padding-top: 40px;
+    position: relative;
+    
+    top: 47px;
+    margin: 0px;
+    border-bottom: 2px solid white;
+  }
+  .login-container .login {
+    max-width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    color: rgb(46, 90, 90);
+    border: none;
+    box-shadow: -1px 1px 4px black;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: white;
+    
+    
+  }
+  .login-container .login input{
+    outline:none;
+    text-align: left;
+    padding-left: 5px;
+    border: none;
+    
+  }
+  
+  .login-container .login .input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+    text-align: start;
+    box-shadow:  1px 1px 5px black;
+    
+  
+  }
+  .login-container .login .input:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px green;
+  }
+  .login .sign-in .forget{
+    display: block;
+  }
+  .login .sign-in button ,.login .sign-up button{
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(59, 174, 59);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    box-shadow:  1px 1px 5px black;
+  
+  }
+  
+  .login .sign-in p ,.login .sign-up p {
+    color: black;
+    display: inline;
+  }
+  #sign-up{
+    display: none;
+  }
+  .login .sign-up-btn{
+    color: blue;
+    display: inline-block;
+    cursor: pointer;
+  
+  }
