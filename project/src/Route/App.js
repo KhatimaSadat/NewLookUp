@@ -4,17 +4,17 @@ import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import { Route } from 'react-router-dom/cjs/react-router-dom.min';
 import AboutUs from '../Pages/AboutUs';
 import Contact from '../Pages/Contact'
-import Featurs from '../Pages/Featurs';
+import Featurs from '../Pages/Feature';
 import Footer from '../Layout/Footer/Footer';
 import Home from '../Layout/Home/Home';
 import LogIn from '../Pages/LogIn';
-import NavBar from '../Layout/NavBar/NavBar';
 import CostomerReview from "../Pages/CostomerReview";
+import NavBar from '../Layout/NavBar/NavBar';
 function App() {
   return (
-      
+    <div className='content'>
        <Router>
-         <div className='content'>
+         
          <NavBar/>
           <Switch>
              <Route exact path="/">
@@ -35,8 +35,8 @@ function App() {
              </Route>
           </Switch>
           <Footer/>
-         </div>
        </Router>
+       </div>
 
   );
 
