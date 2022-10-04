@@ -5,15 +5,8 @@ import  ArrowForward  from "@mui/icons-material/KeyboardArrowRight";
 import ArrowBack  from "@mui/icons-material/KeyboardArrowLeft";
 import './CostomerReview.css';
 const CostomerReview = () => {
-    const handleBack=()=>{
-      const contain=document.querySelector(".cutomer-container");
-     
-      contain.scrollBy(750,0);
-    }
-    const handleFarword =()=>{
-      const contain=document.querySelector(".cutomer-container");
-      contain.scrollBy(750,0);
-    }
+    
+    
     return ( 
        <div id="general">
          <div className="cutomer-container" id="customer-container">

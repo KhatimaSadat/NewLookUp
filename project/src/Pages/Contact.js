@@ -1,4 +1,5 @@
 
+
 import {FaInstagramSquare} from 'react-icons/fa'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {FaTwitterSquare} from 'react-icons/fa'
@@ -50,3 +51,4 @@ const Contact = () => {
 }
  
 export default Contact;
+
