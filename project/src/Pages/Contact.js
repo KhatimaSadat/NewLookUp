@@ -7,7 +7,7 @@ import {HiLocationMarker} from 'react-icons/hi'
 import { MdEmail} from 'react-icons/md'
 import {FaPhoneAlt} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import './Contact.css';
+import './ContactUs.css';
 const Contact = () => {
     return ( 
       <div  className="contact">

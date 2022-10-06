@@ -20,7 +20,7 @@ function Header({openSidebar}) {
           <nav>
             <ul>
               <li><Link to="/home" > HOME</Link></li>
-              <li><Link to="/AboutUs">ABOUT US</Link></li>
+              <li><Link to="/aboutUs">ABOUT US</Link></li>
               <li><Link to="/featurs">FEATURES</Link></li>
               <li><Link to="/contact">CONTACT</Link></li>
             </ul>

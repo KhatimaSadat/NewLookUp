@@ -1,6 +1,6 @@
-import picture from "../Asset/photos/CostomerReview/brooke-cagle-NoRsyXmHGpI-unsplash.jpg";
-import picture1 from "../Asset/photos/CostomerReview/jeremy-mcknight-ix9I7kfMpcc-unsplash.jpg";
-import picture2 from "../Asset/photos/CostomerReview/nicolas-horn-MTZTGvDsHFY-unsplash.jpg";
+import picture from "../Asset/photos/brooke-cagle-NoRsyXmHGpI-unsplash.jpg";
+import picture1 from "../Asset/photos/jeremy-mcknight-ix9I7kfMpcc-unsplash.jpg";
+import picture2 from "../Asset/photos/nicolas-horn-MTZTGvDsHFY-unsplash.jpg";
 import  ArrowForward  from "@mui/icons-material/KeyboardArrowRight";
 import ArrowBack  from "@mui/icons-material/KeyboardArrowLeft";
 import './CostomerReview.css';

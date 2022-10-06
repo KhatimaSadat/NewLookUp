@@ -1,9 +1,15 @@
 /* footer */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .footer{
-  background-color: rgb(28, 28, 86);
+  background-color: rgb(026, 045, 083);;
   color: white;
   padding: 80px;
   padding-top: 40px;
+  position: relative;
+  border-top: 2px solid white;
+
 
   
 }
@@ -25,7 +31,14 @@
   flex-direction: row ;
   justify-content: start;
   align-items: flex-start;
+  
 
+}
+.footer .top .logo{
+   width: 170px;
+   
+   margin-top: 5px;
+   height: 40px;
 }
 .footer .buttom .section{
   margin: 50px;
@@ -41,9 +54,16 @@
 .footer .top h1{
   margin-left: 40px;
 }
-.footer .buttom .section .bottom{
+.footer .buttom .section button{
   color: white;
   border: 2px solid white;
-  padding: 4px;
-  width: 60px;
+  padding: 5px;
+  background-color: rgb(026, 045, 083);
+  margin-top: 10px;
+}
+.footer .buttom .section button:hover{
+  cursor: pointer;
+}
+.footer .buttom #sec-3{
+  margin-top: 50px;
 }

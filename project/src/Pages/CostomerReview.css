@@ -1,6 +1,6 @@
 /* customer container the section above contact us */
 .cutomer-container {
-    background-color: rgb(46, 90, 90);
+    background-color: rgb(026, 045, 083);;
     color: white;
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-behavior: smooth;
+    margin-top: 25px;
     
    }
    .cutomer-container .Header{

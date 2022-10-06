@@ -20,7 +20,7 @@ function App() {
              <Route exact path="/">
                  <LogIn/> 
              </Route>
-             <Route path="/AboutUs">
+             <Route path="/aboutUs">
                  <AboutUs/>
              </Route>
              <Route path="/featurs">

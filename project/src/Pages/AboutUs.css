@@ -1,1 +1,131 @@
-
+/* about us */
+.about-us-gride
+{
+  background-color:  rgb(240, 240, 230); 
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(6, 49, 49);
+  width: 1355px;
+  height: 600px;
+  margin-right: 8px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  
+}
+.about-us-gride .aboutUs-left-side{
+  margin-left: 30px;
+}
+.about-us-gride .aboutUs-left-side .h2 span{
+  font-size: 60px;
+}
+.about-us-gride .aboutUs-left-side .h2{
+  padding-top: 80px;
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: 0;
+  font-family: arial;
+}
+.about-us-gride .aboutUs-left-side .h22{
+  text-align: left;
+  margin-left: 92px;
+  line-height: 6px;
+  margin-top: 6px;
+  font-family: arial;
+  margin-bottom: 0;
+}
+.about-us-gride .aboutUs-left-side .paragraph-about-us{
+  font-family: arial;
+  text-align: left;
+  margin-left: 92px;
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: 51px;
+  margin-bottom: 0;
+}
+.about-us-gride .aboutUs-left-side .paragraph-about-us .learn{
+  font-family: arial;
+  text-align: left;
+  font-size: 11px;
+  line-height: 19px;
+  margin-top: 6px;
+}
+.about-us-gride  .aboutUs-left-side .info{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: 60px;
+  color:rgb(6, 49, 49);
+  margin-left: 87px;
+}
+.about-us-gride  .aboutUs-left-side  .info  .experience{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.ex{
+  margin-top: 27px;
+  text-align: left;
+  margin-left: 4px;
+}
+  .number,
+ .number2{
+  font-weight: bold;
+  font-size: 60px;
+  font-family: arial;
+}
+.companies{
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  margin-top: 20px;
+  font-size: 14px;
+}
+ .company{
+  margin-top: 27px;
+  text-align: left;
+  margin-left: 13px;
+}
+.about-us-gride  .aboutUs-left-side .btns{
+  margin-top: 45px;
+  width: 600px;
+}
+.about-us-gride  .aboutUs-left-side .btns .products{
+  background-color: rgb(6, 49, 49);
+  border: none;
+  padding: 10px;
+  width: 120px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: arial;
+  margin-left: -130px;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+.about-us-gride  .aboutUs-left-side .btns .talk{
+  background:rgb(6, 49, 49);
+  border: none;
+  padding: 10px 14px;
+  width: 155px;
+  color:white;
+  font-size: 12px;
+  margin-left: 25px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 13px;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+.about-us-gride  .aboutUs-left-side .btns .talk:hover,
+.about-us-gride  .aboutUs-left-side .btns .products:hover{
+ border: 2px solid rgb(6, 49, 49);
+ color: rgb(6, 49, 49);
+ background-color: rgb(247, 245, 236);
+ cursor: pointer;
+ border-radius: 100px;
+}
+.about-us-gride .right-side .about-photo{
+width: 617px;
+height: 570px;
+margin-top: 30px;
+}
