@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 import './ContactUs.css';
 const Contact = () => {
     return ( 
-      <div  className="contact">
+        <div  className="contact">
         <div className="section-one">
                 <p className='contact-use'>contact.use</p>
 
@@ -19,9 +19,11 @@ const Contact = () => {
 
                 <h2 className='follow'>Follow us on social</h2>
                 <p>it is a long established fact that a raeder well<br/> be distracted by the readabe</p>
-                <Link to="thelookup@gmail.com" className='social'><FaInstagramSquare size={40} /></Link>
-                <Link to="thelookup@gmail.com" className='social'><FaFacebookSquare size ={40} /></Link>
-                <Link to="thelookup@gmail.com" className='social'><FaTwitterSquare size ={40} /></Link>
+                <div className='logo'>
+                <Link to="thelookup@gmail.com" className='social'><FaInstagramSquare size={30} /></Link>
+                <Link to="thelookup@gmail.com" className='social'><FaFacebookSquare size ={30} /></Link>
+                <Link to="thelookup@gmail.com" className='social'><FaTwitterSquare size ={30} /></Link>
+                </div>
             
                 <h2 className='address'>Address</h2>
                 <p className='address-1'><HiLocationMarker size={15}/>&nbsp;&nbsp;&nbsp;silo Road,1st streat,Kabul</p>
@@ -43,7 +45,7 @@ const Contact = () => {
                     <input type="text" placeholder="message" className='info'/>
                 </div>
                 <Link to="thelookup@gmail.com"> <button  className='send-button'>Send massege!</button> </Link>
-                <h1>Start your journey</h1>
+                <h1 className='start'>Start your journey</h1>
                 <Link to="thelookup@gmail.com"><button className='start-button'>Start now!</button> </Link>
         </div>
       </div>
