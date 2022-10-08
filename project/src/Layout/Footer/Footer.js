@@ -1,4 +1,6 @@
 import logo from '../../Asset/Logo/Group 74.png';
+import LocalPhone from "@mui/icons-material/LocalPhone";
+
 import './Footer.css';
 const Footer = () => {
     return ( 
@@ -7,9 +9,9 @@ const Footer = () => {
           <img src={logo} className="logo" alt=" " />
             <p>Thelookup well-known API for address lookup and form valadation</p>
        </div>
-       <div className="buttom">
+       <div className="buttom" id='buttom'>
             <div className="section" id="sec-1">
-                <p>Aboat</p>
+                <h2>Aboat</h2>
                 <p>privacy policy</p>
                 <p>cookies policy</p>
                 <p>Terms of Use</p>
@@ -17,7 +19,7 @@ const Footer = () => {
                 <p>Help and suport</p>
             </div>
             <div className="section">
-                <p>Adress lookup</p>
+                <h2>Adress lookup</h2>
                 <p>Mobile varication</p>
                 <p>Bank veritifiction</p>
                 <p>Email valadation</p>
@@ -29,9 +31,9 @@ const Footer = () => {
                     <h2> Address</h2>
                     <p>Sila Road,1st street</p>
                     <p>the lookup@gmail.com</p>
-                    <p>0798827626</p>
-                    <p>0798827626</p>
-                    <button>Call Now</button>
+                    <p><LocalPhone/> 0798827626</p>
+                    <p><LocalPhone/> 0798827626</p>
+                    <button> Call Now</button>
             </div>
        </div>
 
