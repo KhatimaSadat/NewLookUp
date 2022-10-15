@@ -1,11 +1,16 @@
 /* footer */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
 .footer{
-  background-color: rgb(28, 28, 86);
+  background-color: rgb(026, 045, 083);;
   color: white;
   padding: 80px;
   padding-top: 40px;
-
+  position: relative;
+  border-top: 2px solid white;
   
+
 }
 .footer .top{
   display: flex;
@@ -19,31 +24,62 @@
 .footer .top p{
   width: 300px;
   text-align: left;
+  line-height: 25px;
+  
 }
 .footer .buttom{
   display: flex;
   flex-direction: row ;
   justify-content: start;
   align-items: flex-start;
+  
+  border-top: 1px solid white;
+  margin-top: 40px;
+  
 
 }
-.footer .buttom .section{
+.footer .top .logo{
+   width: 170px;
+   
+   margin-top: 5px;
+   height: 40px;
+   margin-bottom: 20px;
+}
+.footer #buttom .section{
   margin: 50px;
-  
+  padding-left: 10px;
   text-align: left;
+  line-height: 25px;
+  margin-top: 0px;
+  
+  
 }
 .footer .buttom #sec-1{
   margin-left: 0px;
+  
 }
 .footer .buttom .section p, .footer .buttom .section h2{
   text-align: left;
+  
+}
+.footer .buttom .section h2{
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 30px;
 }
 .footer .top h1{
   margin-left: 40px;
 }
-.footer .buttom .section .bottom{
+.footer .buttom .section button{
   color: white;
   border: 2px solid white;
-  padding: 4px;
-  width: 60px;
+  padding: 5px;
+  background-color: rgb(026, 045, 083);
+  margin-top: 10px;
+}
+.footer .buttom .section button:hover{
+  cursor: pointer;
+}
+.footer .buttom #sec-3{
+  
 }

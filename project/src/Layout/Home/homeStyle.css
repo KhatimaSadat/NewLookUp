@@ -1,9 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .background{
     background: url(../../Asset/photos/backround.jpg) center center /cover;
     background-repeat: no-repeat;

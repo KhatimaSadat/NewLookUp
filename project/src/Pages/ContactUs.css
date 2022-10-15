@@ -1,10 +1,16 @@
 
 /*contact design*/
+
 .contact{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: rgb(9, 9, 41);
+  color: rgb(026, 045, 083);
+  margin: 30px;
+  border: 2px solid rgb(026, 045, 083);
+  border-radius:30px ;
+  padding:30px;
+  background-color: white;
 }
 
 
@@ -15,7 +21,7 @@
 
 .section-one{
   margin:0px 12px 0px 120px;
-  width: 400px;
+  flex: 1;
 }
 .contact-use{
   margin:0px 0px 0px 0px;
@@ -53,9 +59,15 @@
  .contact p{
   font-size: 13px;
  }
-
+.contact .section-one .logo{
+  margin-top: 40px;
+}
 .section-two{
- width: 400px;
+ flex:1;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
 
 }
 
@@ -118,6 +130,20 @@
  font-weight: bold;
  font-size: 20px;
  cursor: pointer;
+}
+@media screen and (max-width : 800px){
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(026, 045, 083);
+    margin: 46px;
+    
+  
+  }
+  .contact .section-one{
+    margin-left: 50px;
+  }
 }
 
 

@@ -1,6 +1,6 @@
 /* log in page */
 .login-container{
-    background-color: rgb(46, 90, 90);
+    background-color: rgb(026, 045, 083);;
     height: 78vh;
     padding-top: 40px;
     position: relative;
@@ -13,7 +13,7 @@
     max-width: 400px;
     height: 350px;
     margin: 0 auto;
-    color: rgb(46, 90, 90);
+    color: rgb(026, 045, 083);;
     border: none;
     box-shadow: -1px 1px 4px black;
     border-radius: 8px;

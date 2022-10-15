@@ -10,7 +10,6 @@ const LogIn = () => {
     const [ Name , setName] = useState('');
     const [email , setEmail] = useState('');
     const [password ,setPassword] =useState('');
-    const [confirmPassword ,setConfirmPassword] =useState('');
     const [isError ,setIsError] =useState('');
     const [checkUser, setCheckUser]=useState('');
     const [checkpassword , setCheckpassword]=useState('');

@@ -1,124 +1,104 @@
 /* customer container the section above contact us */
-.cutomer-container {
-    background-color: rgb(46, 90, 90);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 300px;
-    padding: 20px 0px;
-    
-    position: relative;
-    top: 47px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    
-   }
-   .cutomer-container .Header{
-     position: absolute;
-     left: 50%;
-     
-   }
-   .cutomer-container .wrapper{
-     
-     
-     justify-content: center;
-     align-items: center;
-     
-     margin: auto;
-     padding: 0px 40px;
-     
-     
-     
-     
-   }
-   /*.cutomer-container .wrapper::-webkit-scrollbar{
-     -webkit-appearance: none;
-   }*/
-   .cutomer-container .wrapper ,
-   .cutomer-container .wrapper .section,
-   .cutomer-container .wrapper .section .footer
-   {
-     display: flex;
-     flex-direction: row;
-     
-   }
-   .cutomer-container .wrapper .control{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-   }
-   .cutomer-container .wrapper .section {
-    
-     width: 700px;
-     height: 200px;
-     background-color:white;
-     margin: auto 50px;
-     
-     
-   }
+.general{
+  background-color: rgb(026, 045, 083);
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+ 
+}
+.general article{
+  color: white;
+  padding:10px;
+
+}
+.general .main{
+  margin: 0px 0px;
    
-   .cutomer-container .wrapper .section div img{
-     width: 200px;
-     height: 200px;
-     object-fit: cover;
-     object-position: center;
-   }
-   .cutomer-container .wrapper .section .paragraphe {
-     color: rgb(32, 76, 68);
-     background-color: white;
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     line-height: 20px;
-     padding: 8px;
-     
-   }
-   .cutomer-container .wrapper .section .footer{
-     justify-content: space-between;
-     padding: 10px;
-     background-color: white;
-     color: rgb(32, 76, 68);
-   }
-   .cutomer-container .wrapper .section h5 ,.cutomer-container .wrapper .section p{
-     text-align: left;
-     margin: 5px 10px;
-     font-size: 15px;
+   padding: 0px;
+   margin-bottom: 20px;
+  
+}
+.general .main .wrapper{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+/* this is a class of carsousel library*/
+.thumbs-wrapper.axis-vertical{
+  display: none;
+}
+.general .main .wrapper .section{
+  background-color: white;
+  width: 800px;
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.general .main .wrapper .section img{
+  width: 200px;
+  height: 170px;
+  flex: 1;
+  object-position: center;
+  object-fit: cover;
+}
+.general .main .wrapper .section .paragraphe {
+  color: rgb(9, 9, 41);
+  line-height: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   font-size: 17px;
+   height: 165px;
+   padding-left: 10px;
    
-   }
-   .cutomer-container .wrapper .section h5{
-     margin-bottom: 0px;
-     padding-bottom: 0px;
-   }
-   .comma{
-     margin: 0px;
-     padding: 0px;
-     color: rgb(28, 28, 86);
-     font-size: 35px;
-     text-align: left;
-     font-weight: bold;
-   }
-   .cutomer-container .wrapper .section .footer .email{
-     font-weight: bold;
-   }
-   .cutomer-container .wrapper .section .footer .detail
-   {
-      border: 2px solid rgb(28, 28, 86);
+} 
+.general .main .wrapper .section .paragraphe  h5{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+} 
+.general .main .wrapper .section .paragraphe .comma{
+  margin: 0px;
+  padding: 0px;
+  color: rgb(28, 28, 86);
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+  
+} 
+
+.general .main .wrapper .section .paragraphe p{
+  padding-left: 15px;
+  margin-top: -2xp;
+  padding-top: 0px;
+  
+}
+
+.general .main .wrapper .section .paragraphe .footer{
+  background-color: white;
+  color: rgb(28, 28, 86);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 0px;
+  
+  
+     
+}
+.general .main .wrapper .section .paragraphe .footer .email{
+  font-weight: bold;
+}
+.general .main .wrapper .section .paragraphe .footer .detail{
+  border: 2px solid rgb(28, 28, 86);
       padding: 5px;
-   }
-   .cutomer-container button{
-     position: absolute;
-     bottom: 10px;
-     left: 50%;
-     color: rgb(28, 28, 86);
-     padding: 8px;
-     border-radius: 3px;
-     border: none;
-     background-color: white;
-   }
-   
+      cursor: pointer;
+      
+}
+
